@@ -10,7 +10,7 @@ function App() {
     const fetchBooks = async () => {
       try {
         // Fetch MongoDB books
-        const mongoRes = await axios.get("http://localhost:5000/books");
+        const mongoRes = await axios.get("http://localhost:3000/books");
         const mongoBooks = mongoRes.data;
 
         // Fetch Contentful book covers

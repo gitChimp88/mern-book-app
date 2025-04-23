@@ -9,7 +9,7 @@ function BookReviewForm({ bookId }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post(`http://localhost:5000/books/${bookId}/reviews`, {
+      await axios.post(`http://localhost:3000/books/${bookId}/reviews`, {
         userReview,
         rating: Number(rating),
       });

@@ -17,7 +17,7 @@ function BookList({ books }) {
     if (!reviews[bookId]) {
       try {
         const res = await axios.get(
-          `http://localhost:5000/books/${bookId}/reviews`
+          `http://localhost:3000/books/${bookId}/reviews`
         );
         setReviews((prev) => ({ ...prev, [bookId]: res.data }));
       } catch (err) {
