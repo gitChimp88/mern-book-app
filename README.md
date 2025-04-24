@@ -8,6 +8,8 @@ This repository contains a MERN stack application for submitting and viewing boo
 
 ---
 
+Link to article here - ...
+
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
