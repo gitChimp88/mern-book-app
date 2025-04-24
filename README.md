@@ -33,6 +33,14 @@ Create a `.env` file with:
 MONGO_URI="mongodb://username:password@host:port/database"
 ```
 
+### Seed database with data
+
+To seed the database with some data to begin you can run the following command:
+
+```bash
+node scripts/seedBooks.js
+```
+
 ### Run the server
 
 To start the server run the below:
