@@ -43,8 +43,6 @@ function App() {
     fetchBooks();
   }, []);
 
-  console.log("Books - ", books);
-
   return (
     <div>
       <h1>Book Reviews</h1>

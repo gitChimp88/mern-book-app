@@ -13,7 +13,7 @@ mongoose
   .then(async () => {
     await Book.deleteMany();
     await Book.insertMany(books);
-    console.log("✅ Books seeded!");
+    console.log("Books seeded!");
     process.exit();
   })
   .catch(console.error);
